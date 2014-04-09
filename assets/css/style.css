@@ -10,15 +10,25 @@ html, body {
 	background-color: rgba(255,255,255,.97)!important;
 }
 
-.banner {
-	background: url(../img/banner.jpg) no-repeat center center fixed; 
-	background-position-y: -90px;
-	background-size: 1220px;
-	color:white;
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 /*Import app.css*/
 @import url(app.css);
+@import url(animate.css);
 
 /*Import Google Fonts*/
 @import url(http://fonts.googleapis.com/css?family=Monda:400,700);
