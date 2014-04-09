@@ -22,7 +22,8 @@
 
     <!-- CSS Implementing Plugins -->    
     <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-    <link rel="stylesheet" href="assets/plugins/flexslider/flexslider.css">         
+    <link rel="stylesheet" href="assets/plugins/flexslider/flexslider.css">  
+    <link rel="stylesheet" href="assets/css/animate.css">       
     <!-- CSS Page Style -->    
     <link rel="stylesheet" href="assets/css/pages/page_magazine.css">
     <link rel="stylesheet" href="assets/css/pages/page_contact.css">
@@ -70,6 +71,7 @@
                             </ul>
                         </li>
                         <li><a href="#" onclick="$('#training').animatescroll();">Training</a></li>
+                        <li><a href="#" onclick="$('#about').animatescroll();">About Us</a></li>
                         <li><a href="#" onclick="$('#contact').animatescroll();">Contact</a></li>
                     </ul>        
                         
@@ -83,17 +85,12 @@
     <br>
     <div class="container" id="top">
         <div class="row">
-            <div class="col-md-6">
-                <!-- <div class="jumbotron banner container text-center">
-                    <div class="col-xs-12">
-                        <h2>IPA is the Leader in End-of-Line Packaging</h2>    
-                    </div>
-                 </div> -->
+            <div class="col-md-6 animated fadeInLeft">
 
                  <img class="img-responsive" src="assets/img/bot_arm.png">
             </div> 
 
-            <div class="col-md-6">
+            <div class="col-md-6 animated fadeInRight">
                 <div class="title-box" style="border:none;">
                     <div class="title-box-text">End-Of-Line <span class="color-blue">Automated</span> Packaging</div>
                     <p>Only IPA has the <strong>Broad Resources</strong> and <strong>Focused Expertise</strong> to deliver and support turn-key End-Of-Line packaging systems that maximize value and minimize risk by implementing custom robot cells complemented by a complete line of the best commercially available equipment.</p>
@@ -108,7 +105,7 @@
             <div class="col-sm-4">
                 <div class="promo-box">
                     <i class="icon-cogs color-blue"></i>
-                    <strong>Automate</strong>
+                    <strong>Automation</strong>
                     <p>We supply industry-leading products &amp; services for robotics and factory automation solutions.</p>                
                 </div>        
             </div>        
@@ -116,34 +113,54 @@
             <div class="col-sm-4">
                 <div class="promo-box">
                     <i class="icon-book color-blue"></i>
-                    <strong>Train</strong>
+                    <strong>Training</strong>
                     <p>In order to ensure your investment operates safely and efficiently, we provide in-depth training for your operators.</p>                
                 </div>        
             </div>
             <div class="col-sm-4">
                 <div class="promo-box">
-                    <i class="icon-truck color-blue"></i>
-                    <strong>Deliver</strong>
+                    <i class="icon-group color-blue"></i>
+                    <strong>Support</strong>
                     <p>With our resources &amp; expertise we know you will be satisfied with our services. We guarantee it.</p>                
                 </div>        
             </div>
-        </div>
+            <hr>
+            <div class="col-md-6">
+                <div class="thumbnail">
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="http://www.youtube.com/embed/IdO5I3OZXD8?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="caption">
+                        <h3>Robotic Packing Demo</h3>
+                        <p>A demonstration of a robotic packer.</p>
+                    </div>
+                </div>
+            </div>
+            <br class="visible-xs visible-sm ">
+            <div class="col-md-6">
+                <div class="thumbnail">
+                    <div class="video-container">
+                        <iframe width="560" height="315" src="http://www.youtube.com/embed/jnaNeP7RukY?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="caption">
+                        <h3>Robotic Palletizer Demo</h3>
+                        <p>A demonstration of a robotic palletizer.</p>
+                    </div>
+                </div>
+            </div>
+        
+        </div>        
         <hr>
     </div>  
-            
+    <br>
     <section class="margin-bottom-40"><!-- Picking -->
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-md-2">
-                            <ul class="list-inline style-icons">
-                                <li><i class="icon-round icon-round-lg icon-bg-blue">1</i></li>
-                            </ul>
-                        </div>    
+                    <div class="row">    
                         <div class="col-md-10">
-                            <div class="headline">
-                                <h2 id="pick">Picking</h2>
+                            <div class="row">
+                                <div class="col-md-6 headline"><h2>Picking</h2></div>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -175,15 +192,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-md-2">
-                            <ul class="list-inline style-icons">
-                                <li><i class="icon-round icon-round-lg icon-bg-blue">2</i></li>
-                            </ul>
-                        </div>    
+                    <div class="row">   
                         <div class="col-md-10">
-                            <div class="headline">
-                                <h2>Packing</h2>
+                            <div class="row">
+                                <div class="col-md-6 headline"><h2>Packing</h2></div>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -220,7 +232,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-md-offset-2">
-                    <img src="assets/img/bot_packing.png" class="img-responsive pull-right bot-packing">
+                    <img src="assets/img/bot_packing.png" class="img-responsive pull-right">
                 </div>
             </div>
             <hr>
@@ -232,14 +244,9 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="row">
-                        <div class="col-md-2">
-                            <ul class="list-inline style-icons">
-                                <li><i class="icon-round icon-round-lg icon-bg-blue">3</i></li>
-                            </ul>
-                        </div>    
                         <div class="col-md-10">
-                            <div class="headline">
-                                <h2>Palletizing</h2>
+                            <div class="row">
+                                <div class="col-md-6 headline"><h2>Palletizing</h2></div>
                             </div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -273,31 +280,26 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-1">
-                            <ul class="list-inline style-icons">
-                                <li><i class="icon-round icon-round-lg icon-bg-blue">4</i></li>
-                            </ul>
-                        </div>    
+                    <div class="row">   
                         <div class="col-md-10">
-                            <div class="headline">
-                                <h2>Training</h2>
+                            <div class="row">
+                                <div class="col-md-3 headline"><h2>Training</h2></div>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            <ul class="list-unstyled">
-                                <li><i class="icon-ok color-blue"></i> Item 1</li>
-                                <li><i class="icon-ok color-blue"></i> Item 2</li>
-                                <li><i class="icon-ok color-blue"></i> Item 3</li>
-                                <li><i class="icon-ok color-blue"></i> Item 4</li>
-                                <li><i class="icon-ok color-blue"></i> Item 5</li>
-                                <li><i class="icon-ok color-blue"></i> Item 6</li>
-                                <li><i class="icon-ok color-blue"></i> Item 7</li>
+                            <p>IPA supplies robot technicians certified by the robot manufacturer for the training of end-user personnel. Our training is offered in two formats, Informal and Formal Training.</p>
+                            <br>
+                            <h4>Informal Training</h4>
+                            <p>Informal Training is performed on every cell and includes practical training conducted immediately as the last stage of the start-up process. Informal training includes:</p>
+                            <ul>
+                                <li>Electrical, mechanical, and pneumatic systems</li>
+                                <li>System Operation including Programming, Changing Products, End-of Run, Recovery, Screens, Navigation, and Application Parameters</li>
+                                <li>System Troubleshooting</li>
+                                <li>Preventative Maintenance</li>
+                                <li>Safety Training</li>
                             </ul>
+                            <p>A printed manual is included beyond the manuals included on-board the robot controller. This manual contains best practices and quick-guides to expedite the learning process, as well as a complete recommended Spare Parts List.</p>
+                            <br>
+                            <h4>Formal Training</h4>
+                            <p>Formal Training is performed optionally and includes both classroom and hands-on training at our production facility. This program is customized to the client’s needs and can incorporate formal verification techniques.</p>
                         </div>
                     </div>
                 </div>
@@ -305,37 +307,100 @@
             <hr>
         </div>    
     </section> 
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="headline">
+                        <h2>About Us</h2>
+                    </div>
+                    <h4>Our Mission</h4>
+                    <p>
+                        IPA’s mission is to lower the per unit cost of production for its clients. We do this by analyzing the repetitive motion tasks involved in a client’s end-of-line packaging, and developing automation projects that result in enviable return-on-investments for our clients. In order to achieve our goals, we have assembled a staff of highly-experienced experts in the field of robotic technology, custom machine design/build, automated packaging processes, electro-mechanical design, machine vision, software integration and electrical and pneumatic controls. Our staff members have designed, built, and installed palletizer and case packer –related solutions in over 40 states and several countries. We have the most experienced staff not only in Wisconsin but indeed the upper Midwest. We are uniquely structured in the industry with in-house sanitary food-handling design capabilities. With our wide breadth of resources and our focused expertise in end-of-line packaging, our client's needs are served beyond their expectation.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
     
     <section id="contact">
         <div class="container">     
             <div class="row margin-bottom-30">
             
-                <div class="col-md-3">
-                    <!-- Contacts -->
-                    <div class="headline"><h2>Contacts</h2></div>
-                    <ul class="list-unstyled who margin-bottom-30">
-                        <li><a href="#"><i class="icon-home"></i>431 Linnerud Drive Sun Prairie, WI</a></li>
-                        <li><a href="#"><i class="icon-envelope-alt"></i>info@example.com</a></li>
-                        <li><a href="#"><i class="icon-phone-sign"></i>608.312.4508</a></li>
-                        <li><a href="#"><i class="icon-globe"></i>www.intpkgauto.com</a></li>
-                    </ul>
-
-                    <!-- Business Hours -->
-                    <div class="headline"><h2>Business Hours</h2></div>
-                    <ul class="list-unstyled margin-bottom-30">
-                        <li><strong>Monday-Friday:</strong> 10am to 8pm</li>
-                        <li><strong>Saturday:</strong> 11am to 3pm</li>
-                        <li><strong>Sunday:</strong> Closed</li>
-                    </ul>
-                </div><!--/col-md-3-->
-                <div class="col-md-9 mb-margin-bottom-30">
+                
+                <div class="col-md-12 mb-margin-bottom-30">
+                    <div class="row">
+                        <div class="col-md-3 headline"><h2>Contact</h2></div>
+                    </div>
                     <!-- Google Map -->
                     <div id="map" class="map map-box map-box-space margin-bottom-40">
                     </div><!---/map-->
                     <!-- End Google Map -->
-
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas feugiat. Et harum quidem rerum facilis est et expedita distinctio lorem ipsum dolor sit amet, consectetur adipiscing elit landitiis.</p><br />
                 </div><!--/col-md-9-->
+                
+
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-12">
+                            <!-- Contacts -->
+                            <div class="headline"><h2>Contact Information</h2></div>
+                            <ul class="list-unstyled who margin-bottom-30">
+                                <li><a href="#"><i class="icon-home"></i>431 Linnerud Drive Sun Prairie, WI</a></li>
+                                <li><a href="#"><i class="icon-envelope-alt"></i>info@example.com</a></li>
+                                <li><a href="#"><i class="icon-phone-sign"></i>608.312.4508</a></li>
+                                <li><a href="#"><i class="icon-globe"></i>www.intpkgauto.com</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-12">
+                            <!-- Business Hours -->
+                            <div class="headline"><h2>Business Hours</h2></div>
+                            <ul class="list-unstyled margin-bottom-30">
+                                <li><strong>Monday-Friday:</strong> 10am to 8pm</li>
+                                <li><strong>Saturday:</strong> 11am to 3pm</li>
+                                <li><strong>Sunday:</strong> Closed</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!--/col-md-3-->
+
+                <div class="col-md-9">
+                    <div class="headline">
+                        <h2>Send us a message</h2>
+                    </div>
+                    <form method="post" action="emailform.php">
+                        <div class="row margin-bottom-20">
+                            <div class="col-md-6 col-md-offset-0">
+                                <input type="text" required name="first_name"placeholder="First Name*" class="form-control">
+                            </div>
+                            <br class="visible-xs visible-sm">
+                            <div class="col-md-6 col-md-offset-0">
+                                <input type="text" name="last_name" placeholder="Last Name" class="form-control">
+                            </div>                
+                        </div>
+                        <div class="row margin-bottom-20">
+                            <div class="col-md-6 col-md-offset-0">
+                                <input type="text" name="company_name" placeholder="Company Name" class="form-control">
+                            </div>   
+                            <br class="visible-xs visible-sm">
+                             <div class="col-md-6 col-md-offset-0">
+                                <input type="email" required name="email" placeholder="Email*" class="form-control">
+                            </div>               
+                        </div>
+                        <div class="row margin-bottom-20">
+                            <div class="col-md-6 col-md-offset-0">
+                                <input type="tel" required name="telephone" placeholder="Phone Number*" class="form-control">
+                            </div>                
+                        </div>
+                        <div class="row margin-bottom-20">
+                            <div class="col-md-12 col-md-offset-0">
+                                <textarea rows="8" required name="comments" placeholder="Message*" class="form-control"></textarea>
+                            </div>                
+                        </div>
+                        
+                        <p><button type="submit" value="submit" class="btn-u">Send Message</button></p>
+                    </form>
+                </div>
             </div><!--/row-->        
         </div><!--/container-->     
     </section>
